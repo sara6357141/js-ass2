@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.quote{
+    font-weight: 900;
+    color: black;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p {
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.button{
+    width: 250px;
+    height: 80px;
+    border-radius: 0;
+    background-color: blue;
+    border: solid black 2px;
+    transition: all 0.2s;
+    font-size: 14px;
+}
+.button:hover{
+    background-color: green;
+    border: solid black 2px;
+}
